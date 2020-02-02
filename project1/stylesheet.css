@@ -1,0 +1,84 @@
+/* Css file */
+
+body{
+	background: url("image/esa.jpg");
+}
+
+.mainheading {
+	text-align: center;
+	font-weight: 700;
+	font-size: 60px;
+	color: #ddd;
+	height:50px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#link a {
+   	text-decoration: none;
+   	display: inline-block;
+   	color: yellow;
+   	margin:0px;
+   	padding: 0px;
+   	cursor: pointer;
+   }
+
+#link a:hover {
+	color:red;
+}
+
+#link {
+	text-align: right;
+}
+
+.article {
+	width: 800px;
+	padding:0px;
+	margin:20px;
+	float: left;
+	color:yellow;
+}
+
+.aside {
+	padding:20px;
+	margin: 0px;
+	float:right;
+	width: 300px;
+	margin-top: 50px;
+	margin-right: 50px;
+	border: black;
+	background:black;
+	color:white;
+}
+
+.aside:hover {
+	border-style: outset solid;
+	border-color: red;
+}
+
+section.page1:hover {
+	border-style:outset;
+	padding:20px 20px;
+	overflow: visible;
+}
+
+section.page2:hover {
+	border-style:outset;
+	padding:20px 20px;
+	overflow: visible;
+}
+
+section.page3:hover {
+	border-style:outset;
+	padding:20px 20px;
+	overflow: visible;
+}
+
+
+.footer {
+	clear: both;
+	background: #009999;
+	text-align:center;
+	color:black;
+}
